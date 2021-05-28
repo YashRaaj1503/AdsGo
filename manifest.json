@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "AdsGo",
+    "version": "1.0",
+    "description": "Adblocker that doesn't get detected",
+    "background": {
+        "scripts": ["blockedsites.js", "AdsGo.js"]
+    },
+    "author": "Yash Raaj",
+    "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"]
+}
